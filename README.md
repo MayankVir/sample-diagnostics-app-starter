@@ -1,1 +1,1 @@
-# sample-diagnostics-app-starter
+# Sample Diagnostics App Starter
