@@ -1,0 +1,5 @@
+.SysData_div {
+	display: grid;
+      justify-content: space-around;
+	align-items: center;
+}
