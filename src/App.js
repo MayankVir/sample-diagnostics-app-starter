@@ -22,14 +22,6 @@ export default function App() {
 					<Route path="/state" component={SysState}/>
 				</Switch>
 			</div>
-				{/* <div className="child">
-					<Switch>
-						<Route path="/" exact component={SysData}/>
-						<Route path="/diagnostic_manager" component={SysManager}/>
-						<Route path="/state" component={SysState}/>
-					</Switch>
-				</div> */}
-			{/* </div> */}
 		</div>
     	</Router>
     );
