@@ -38,7 +38,7 @@
 /* Left Sidebar */
 .Sidebar {
   height: 100vh;
-  width: 300px;
+  width: 20%;
   background-color: #2f4050;
 }
 
@@ -95,3 +95,16 @@
 /* System Diagnostics Manager */
 
 /* System State */
+
+
+@media only screen and (max-device-width : 700px) {
+  .header, .SidebarList .row, .Menu {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-device-width : 450px) {
+  .header, .SidebarList .row, .Menu {
+    font-size: 0.5rem;
+  }
+}
