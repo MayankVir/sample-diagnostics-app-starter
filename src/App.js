@@ -11,7 +11,6 @@ export default function App() {
 	<Router>
 		<div className="App">
 			<Sidebar />
-			{/* <div className="content"> */}
 			<div className="content">
 				<div class="header">
 					<h1>SAMPLE DIAGNOSTICS APP</h1>

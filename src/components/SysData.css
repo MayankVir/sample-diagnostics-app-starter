@@ -1,5 +1,4 @@
-.SysData_div {
-	display: grid;
-      justify-content: space-around;
-	align-items: center;
+.cpu_class {
+      display: flex;
+      margin: 0 30px;
 }
