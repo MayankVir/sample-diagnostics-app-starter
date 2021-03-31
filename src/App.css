@@ -23,7 +23,7 @@
 
 hr {
   width: 90%;
-  margin: 0 5%;
+  margin: 5% 5%;
 }
 
 .box {
@@ -52,7 +52,7 @@ hr {
 /* Left Sidebar */
 .Sidebar {
   background-color: #2f4050;
-  height: 70vw;
+  height: 85vw;
   width: 20%;
 }
 
