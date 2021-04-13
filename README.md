@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-You can go to this link to access the app [HERE](https://heuristic-hermann-cc6a81.netlify.app)
+You can go to this link to access the app [HERE](https://diagnosticapp.netlify.app)
 
 ## Available Scripts
 
