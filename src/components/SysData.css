@@ -1,36 +1,210 @@
-h4 {
-      font-size: 1.5rem;
+.sysdata {
+      display: flex;
+      font-family: 'Nunito', sans-serif;
+      margin-top: 25px;
 }
 
-.cpu_class {
+.cpu {
+      width: 50%;
+      /* background: greenyellow; */
+      /* animation: Slideup 1.4s ease; */
+}
+
+.cpu_heading, .storage_heading, .memory_heading {
       display: flex;
-      margin: 0 30px;
+      justify-content: center;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #0673C2;
+      animation: Slideup 1.4s ease;
+}
+
+.name_arch, .features_temp{
+      display: flex;
+      margin: 10px 5%;
+}
+
+.box {
+      width: 50%;
+      height: 100px;
+      /* background: chocolate; */
+
+}
+
+.cpu_name_heading,
+.cpu_arch_heading,
+.cpu_features_heading,
+.cpu_temp_heading,
+.cpu_processors,
+.memory_total_heading,
+.memory_used_heading {
+      font-size: 1.5rem;
+      color: rgb(15, 126, 15);
+      text-decoration: underline;
+      animation: Slideup 1.8s ease;
+}
+
+.cpu_name_content,
+.cpu_arch_content,
+.cpu_features_content,
+.cpu_temp_content {
+      font-size: 1.1rem;
+      color: #04375c;
+      animation: Slideup 2s ease;
+      /* background: greenyellow; */
+}
+
+
+.visualisation {
+      display: block;
+      margin: 15px 5%;
+      height: 40vh;
+      width: 90%;
+}
+
+.vertical_line {
+      background: #0673C2;
+      width: 1px;
+      height: 70vh;
+      margin: 0 10px 10px 10px;
+}
+
+.storage_memory {
+      width: 50%;
+      height: 83vh;
+      /* background: crimson; */
+}
+
+.storage, .memory {
+      /* background: brown; */
+      margin: 0px 5%;
+      height: 35vh;
+
+}
+
+.horizontal_line {
+      width: 92%;
+      height: 1px;
+      margin: 15px 4%;
+      background: #0673C2;
 }
 
 .bar {
       height: 8px;
-      margin-top: 4px;
-      background: rgba(0,0,0,.4);
-      /* overflow-x: hidden; */
-    }
-
+      margin-top: 10px;
+      background: rgba(8, 216, 25, 0.4);
+      overflow-x: hidden;
+}
+    
 .bar-section {
       height: 100%;
       float: left;
       transition: transform .5s ease-in-out;
 }
-
 .used {
       width: 100%;
       background: rgba(143, 230, 143, .8);
       box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .5);
 }
 
-.storage_spacer {
-      margin: 8px 0px;
+.storage_content {
+      font-size: 1.1rem;
+      color: #04375c;
+      margin: 15px 0;
+      animation: Slideup 2s ease;
 }
 
-.dark {
-      font-weight: 600;
-      font-family: 'Poppins', sans-serif;;
+.storage_spacer {
+      margin: 10px 0;
+}
+
+/* #myChart {
+      background: greenyellow;
+} */
+
+.horizontal_line_mobile {
+      width: 100%;
+      height: 1px;
+      background: #0673C2;
+      display: none;
+}
+
+.cpu_processors_chart {
+      margin-top: 25px;
+      width: 80%;
+      animation: Slideup 2s ease;
+      /* height: 80%; */
+      /* background: hotpink; */
+}
+
+@media (max-width: 768px) {
+      .cpu_name_content,
+      .cpu_arch_content,
+      .cpu_features_content,
+      .cpu_temp_content {
+            font-size: 1rem;
+            color: #04375c;
+            /* background: greenyellow; */
+      }
+}
+
+@media (max-width: 540px) {
+      .sysdata {
+            display: block;
+      }
+      .name_arch, .features_temp{
+            display: block;
+            margin: 0px 5%;
+      }
+      
+      .box {
+            width: 100%;
+            height: 100px;
+            /* background: chocolate; */  
+      }
+      
+      .cpu {
+            width: 100%;
+      }
+
+      .vertical_line {
+            display: none;
+      }
+
+      .storage_memory {
+            width: 100%;
+            display: block;  
+      }
+
+      .cpu_processors_chart {
+            margin-top: 15px;
+            width: 90%;
+            height: 100%;
+            background: hotpink;
+      }      
+
+      .horizontal_line_mobile {
+            display: block;
+            margin: 100px 3% 25px 3%;
+      }
+
+      .horizontal_line {
+            width: 100%;
+            height: 1px;
+            margin: 15px 3%;
+            background: #0673C2;
+      }
+      
+      
+      
+}
+
+
+@keyframes Slideup{
+      0% {
+            transform: translateY(250px);
+      }
+      100% {
+            transform: translateY(0);
+      }
 }
