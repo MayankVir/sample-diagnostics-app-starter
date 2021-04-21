@@ -32,7 +32,6 @@ function SysData() {
 				<div className="visualisation box">
 					<div className="cpu_processors">Processor Usage</div>
 					<div className="cpu_processors_chart">
-						
 					</div>
 				</div>
 
@@ -60,8 +59,8 @@ function SysData() {
 				</div>
 			</div>
 		</div>
-		<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.0/chart.min.js"></script>
-		<script src="https://requirejs.org/docs/release/2.3.6/r.js"></script>
+		{/* <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.0/chart.min.js"></script>
+		<script src="https://requirejs.org/docs/release/2.3.6/r.js"></script> */}
 		</>
 	);
 }
